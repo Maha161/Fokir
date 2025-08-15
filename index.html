@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png-icon" href="./images/happy.png">
+  <title>Fokir</title>
+  
+  <!-- Google Fonts - Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+  <!-- IcoFont CSS -->
+  <link rel="stylesheet" href="./CSS/icofont.min.css" />
+  
+  <!-- Animate.CSS Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  
+  <!-- Bootstrap Stylesheet -->
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+  
+  <!-- Main CSS Stylesheet -->
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <!-- Media CSS Stylesheet -->
+  <link rel="stylesheet" href="./CSS/media.css" />
+
+  <!-- Main Anmimation Css -->
+   <link rel="stylesheet" href="./CSS/animation.css" />
+</head>
+<body>
+
+  <!-- ========== Header Section ========== -->
+  <header>
+    <div class="overlay"></div>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg top-0 left-0 right-0">
+      <div class="container">
+        <a class="navbar-brand" href="#">Fokir</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonial</a></li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Header Content -->
+    <div class="header-content" id="home">
+      <h3>Hello i'm</h3>
+      <h1>Alex Smith</h1>
+      <h4 class="cd-headline clip">
+        Professional Web <span class="typing-text fw-light"></span>
+      </h4>
+    </div> 
+  </header>
+
+  <main>
+    <!-- ========== About Section ========== -->
+    <section id="about" class="about-section">
+      <div class="container about-section">
+        <div class="row">    
+          <!-- Profile Image Column -->
+          <div class="col-lg-5 col-md-6">
+            <div class="about-img">
+              <div class="img-container">
+                <img src="./images/work-7.jpg" alt="Profile Image">
+                <div class="overlay">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-google"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Text Column -->
+          <div class="col-lg-7 col-md-6 ">
+            <div class="about-text">
+              <h2>HELLO,</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              
+              <!-- Personal Info Table -->
+              <div class="about-info">
+                <div class="row">
+                  <div class="col-6"><span>Name:</span> Rdam Smith</div>
+                  <div class="col-6"><span>Job Title:</span> UI/UX Designer</div>
+                  <div class="col-6"><span>Age:</span> 26 Year</div>
+                  <div class="col-6"><span>Location:</span> United States, US</div>
+                  <div class="col-6"><span>Freelance:</span> Available</div>
+                  <div class="col-6"><span>Email:</span> example@gmail.com</div>
+                </div>
+              </div>
+              
+              <!-- Action Buttons -->
+              <button class="btn-custom me-2">Download CV <i class="fa-solid fa-download"></i></button>
+              <button class="btn-custom">Hire Me <i class="fa fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Services Section ========== -->
+    <section id="services" class="services-section">
+      <div id="services" class="our-services">
+        <div class="container">
+          <div class="our-services-header has-before-after">
+            <h2>Our Services</h2>
+          </div>
+          
+          <!-- Services Cards -->
+          <div class="our-services-cards row justify-content-center">
+            
+            <!-- UI/UX Design Card -->
+            <div class="col-12 col-md-6 col-lg-3 d-flex service-card">
+              <div class="card-inner flex-fill text-center">
+                <i class="icofont-calculations"></i>
+                <h3>UI/UX DESIGN</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+              </div>
+            </div>
+
+            <!-- App Development Card -->
+            <div class="col-12 col-md-6 col-lg-3 d-flex service-card">
+              <div class="card-inner flex-fill text-center">
+                <i class="icofont-code"></i>
+                <h3>APP DEVELOPMENT</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+              </div>
+            </div>
+
+            <!-- Product Design Card -->
+            <div class="col-12 col-md-6 col-lg-3 d-flex service-card">
+              <div class="card-inner flex-fill text-center">
+                <i class="icofont-dashboard-web"></i>
+                <h3>PRODUCT DESIGN</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+              </div>
+            </div>
+
+            <!-- UI/UX Design Card -->
+            <div class="col-12 col-md-6 col-lg-3 d-flex service-card">
+              <div class="card-inner flex-fill text-center">
+                <i class="icofont-ui-settings"></i>          
+                <h3>UI/UX DESIGN</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Portfolio Section ========== -->
+    <section id="portfolio" class="protfolio-section">
+      <div class="container">
+        <div class="protfolio-header has-before-after">
+          <h2>Our Portfolio</h2>
+        </div>
+
+        <!-- Portfolio Filter Tabs -->
+        <div class="protfolio-nav">
+          <ul class="nav justify-content-center" id="portfolio-tab" role="tablist">
+            <li class="nav-item">
+              <button class="nav-link all active" id="all-tab" data-bs-toggle="pill" data-bs-target="#all" type="button" role="tab">All</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" id="graphic-tab" data-bs-toggle="pill" data-bs-target="#graphic" type="button" role="tab">Graphic</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" id="web-tab" data-bs-toggle="pill" data-bs-target="#web" type="button" role="tab">Web Design</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" id="branding-tab" data-bs-toggle="pill" data-bs-target="#branding" type="button" role="tab">Branding</button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Portfolio Items -->
+        <div class="tab-content pt-4" id="portfolio-tabContent">
+          <!-- All Tab Content -->
+          <div class="tab-pane fade show active" id="all" role="tabpanel">
+            <div class="row g-3 protfolio-cards">
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/1.jpg" alt="Wall Clock" />
+                  <div class="overlay"><i class="fa-regular fa-file-image"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/2.jpg" alt="Wristwatch" />
+                  <div class="overlay"><i class="fa fa-link"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/3.jpg" alt="Oood Logo" />
+                  <div class="overlay"><i class="fa-regular fa-file-image"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/4.jpg" alt="Shoes" />
+                  <div class="overlay"><i class="fa-regular fa-file-image"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/5.jpg" alt="Miller&Co Logo" />
+                  <div class="overlay"><i class="fa fa-link"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/6.jpg" alt="Device" />
+                  <div class="overlay"><i class="fa-regular fa-file-image"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Graphic Tab Content -->
+          <div class="tab-pane fade" id="graphic" role="tabpanel">
+            <div class="row g-3 protfolio-cards">
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/2.jpg" alt="Wristwatch" />
+                  <div class="overlay"><i class="fa fa-link"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/3.jpg" alt="Oood Logo" />
+                  <div class="overlay"><i class="fa-regular fa-file-image"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/4.jpg" alt="Shoes" />
+                  <div class="overlay"><i class="fa-regular fa-file-image"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/5.jpg" alt="Miller&Co Logo" />
+                  <div class="overlay"><i class="fa fa-link"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/6.jpg" alt="Device" />
+                  <div class="overlay"><i class="fa-regular fa-file-image"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Design Tab Content -->
+          <div class="tab-pane fade" id="web" role="tabpanel">
+            <div class="row g-3 protfolio-cards">
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/1.jpg" alt="Wall Clock" />
+                  <div class="overlay"><i class="fa-regular fa-file-image"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/4.jpg" alt="Shoes" />
+                  <div class="overlay"><i class="fa-regular fa-file-image"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/5.jpg" alt="Miller&Co Logo" />
+                  <div class="overlay"><i class="fa fa-link"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Branding Tab Content -->
+          <div class="tab-pane fade" id="branding" role="tabpanel">
+            <div class="row g-3 protfolio-cards">
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInUp">
+                <div class="pro-card">
+                  <img src="./images/portfolio/2.jpg" alt="Wristwatch" />
+                  <div class="overlay"><i class="fa fa-link"></i></div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 animate__animated animate__fadeInRight">
+                <div class="pro-card">
+                  <img src="./images/portfolio/6.jpg" alt="Device" />
+                  <div class="overlay"><i class="fa-regular fa-file-image"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Counter Section ========== -->
+    <section id="count" class="count-section">
+      <div class="container">
+        <div class="row text-center">
+          <!-- Team Members Counter -->
+          <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
+            <div class="c-card">
+              <i class="fa fa-users"></i>
+              <h2 data-target="200">0</h2>
+              <h5>Team members</h5>
+            </div>
+          </div>
+
+          <!-- Complete Projects Counter -->
+          <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
+            <div class="c-card">
+              <i class="far fa-copy"></i>
+              <h2 data-target="345">0</h2>
+              <h5>Complete Projects</h5>
+            </div>
+          </div>
+
+          <!-- Files Downloaded Counter -->
+          <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
+            <div class="c-card">
+              <i class="fa fa-cloud-download"></i>
+              <h2 data-target="1800">0</h2>
+              <h5>Files Downloaded</h5>
+            </div>
+          </div>
+
+          <!-- Lines Of Code Counter -->
+          <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
+            <div class="c-card">
+              <i class="fa fa-coffee"></i>
+              <h2 data-target="1200">0</h2>
+              <h5>Lines Of Code</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Testimonial Section ========== -->
+    <section id="testimonial" class="feedback-section py-5">
+      <div class="container">
+        <div class="feedback-header has-before-after">
+          <h2>Client's Feedback</h2>
+        </div>
+        
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-sm-12">
+            <!-- Testimonial Carousel -->
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                
+                <!-- Testimonial Slide 1 -->
+                <div class="carousel-item active">
+                  <div class="testimonial-card row d-flex g-10">
+                    <div class="testimonial-image-side col-md-4">
+                      <img src="./images/feedback.jpg" alt="Alex ander" class="testimonial-image">
+                    </div>
+                    <div class="testimonial-content col-md-8">
+                      <h4>Alex ander</h4>
+                      <p class="location"><i class="fa fa-map-marker-alt"></i> United</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt, architecto vel dolore, laudantium dignissimos debitis optio!</p>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testimonial Slide 2 -->
+                <div class="carousel-item">
+                  <div class="testimonial-card row">
+                    <div class="testimonial-image-side col-md-4 col-sm-12">
+                      <img src="./images/3 (1).jpg" alt="Alex ander" class="testimonial-image">
+                    </div>
+                    <div class="testimonial-content col-md-8 col-sm-12">
+                      <h4>Alex ander</h4>
+                      <p class="location"><i class="fa fa-map-marker-alt"></i> United</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt, architecto vel dolore, laudantium dignissimos debitis optio!</p>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Indicators -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Blog Section ========== -->
+    <section id="blog" class="blog-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="blog-header">
+          <h2>Our Blog</h2>
+        </div>
+
+        <!-- Blog Cards -->
+        <div class="row g-4">
+          <!-- Blog Card 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="blog-card">
+              <img src="./images/blog/12.jpg" class="card-img-top" alt="man in winter">
+              <div class="blog-card-content">
+                <p>23 November, 2015</p>
+                <h3>
+                 <a class="blog-card-title" href="">Web Design Blog Post</a>
+                </h3> 
+                <p class="blog-card-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.
+                </p>
+                <a href="#" class="read-more">
+                  READ MORE <i class="fa fa-long-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Card 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="blog-card">
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/uVju5--RqtY" title="YouTube video" allowfullscreen></iframe>
+              </div>
+              <div class="blog-card-content">
+                <p>20 April, 2018</p>
+                <h3>
+                <a class="blog-card-title" href="">Development Blog Post</a>
+                </h3>
+                <p class="blog-card-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.
+                </p>
+                <a href="#" class="read-more">
+                  READ MORE <i class="fa fa-long-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Card 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="blog-card">
+              <img src="./images/blog/32.jpg" class="card-img-top" alt="man in vest">
+              <div class="blog-card-content">
+                <p>17 May, 2017</p>
+                <h3>
+                <a class="blog-card-title" href="">Full Width Blog Post</a>
+                </h3>
+                <p class="blog-card-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.
+                </p>
+                <a href="#" class="read-more">
+                  READ MORE <i class="fa fa-long-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Contact Section ========== -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-header has-before-after">
+          <h2>Contact Us</h2>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-fields row">
+          <div class="form-container col-md-8 col-sm-12">
+            <form>
+              <div class="row g-2">
+                <!-- Name Field -->
+                <div class="col-md-6">
+                  <input class="name-field input form-control" type="text" placeholder="Name" name="name" required>
+                </div>
+                
+                <!-- Email Field -->
+                <div class="col-md-6">
+                  <input class="email-field input form-control" type="email" placeholder="Email" name="email" required>
+                </div>
+              </div>
+
+              <!-- Subject Field -->
+              <div class="row g-2 mt-2">
+                <div class="col-12">
+                  <input class="subject-field input form-control" type="text" placeholder="Subject" name="Subject" required>
+                </div>
+              </div>
+
+              <!-- Message Field -->
+              <div class="row g-2 mt-2">
+                <div class="col-12">
+                  <textarea class="textarea-field input form-control" rows="4" placeholder="Message for me"></textarea>
+                </div>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="row mt-3">
+                <div class="col-12">
+                  <button type="submit" class="send-button btn btn-dark text-uppercase btn-sm">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer Section ========== -->
+  <footer>
+    <div class="footer text-white">
+      <div class="container text-center">
+        
+        <!-- Social Icons -->
+        <div class="social-icons mb-2">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://x.com/?lang=en">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.google.com/">
+                <i class="fa-brands fa-google"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Copyright Text -->
+        <div class="copy-right">
+          <p class="mb-0">
+            Copy Right 2018 © By 
+            <a href="#">Theme-fair</a> 
+            All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script src="./Js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Main JavaScript File -->
+  <script src="./Js/index.js"></script>
+
+</body>
+</html>

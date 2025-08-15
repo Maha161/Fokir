@@ -1,0 +1,34 @@
+@keyframes typing {
+  0% {
+    content: "Designer";
+    width: 0ch;
+  }
+  16% {
+    content: "Designer";
+    width: 8ch;
+  }
+  33% {
+    content: "Designer";
+    width: 8ch;
+  }
+  50% {
+    content: "Designer";
+    width: 0ch;
+  }
+  50.1% {
+    content: "Developer";
+    width: 0ch;
+  }
+  66% {
+    content: "Developer";
+    width: 9ch;
+  }
+  83% {
+    content: "Developer";
+    width: 9ch;
+  }
+  100% {
+    content: "Developer";
+    width: 0ch;
+  }
+}
