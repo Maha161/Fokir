@@ -45,18 +45,17 @@ window.addEventListener("scroll", () => {
   let currentScroll = window.scrollY;
 
   if (currentScroll === 0) {
-    // أول الصفحة
     navbar.classList.remove("scrolled-up", "scrolled-down");
     navbar.classList.add("default-color");
   } else if (currentScroll > lastScrollTop) {
-    // نازل لتحت
     navbar.classList.remove("scrolled-up", "default-color");
     navbar.classList.add("scrolled-down");
   } else {
-    // طالع لفوق
     navbar.classList.remove("scrolled-down", "default-color");
     navbar.classList.add("scrolled-up");
   }
 
   lastScrollTop = currentScroll;
 });
+
+
