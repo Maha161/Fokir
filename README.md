@@ -4,6 +4,12 @@ A modern, responsive **personal portfolio website** built with **Bootstrap 5**, 
 
 ---
 
+## 💻 Live Demo
+
+[View Live Demo](https://fokir-sable.vercel.app/)
+
+---
+
 ## 🚀 Features
 
 - **Fully Responsive** – Works on all devices (mobile, tablet, desktop)
@@ -53,12 +59,6 @@ A modern, responsive **personal portfolio website** built with **Bootstrap 5**, 
 - **Google Fonts** – Roboto & Source Sans 3
 - **HTML5 & CSS3** – Markup and styling
 - **JavaScript ES6+** – Interactivity
-
----
-
-## 💻 Live Demo
-
-[View Live Demo](#) <!-- Replace # with live URL -->
 
 ---
 
