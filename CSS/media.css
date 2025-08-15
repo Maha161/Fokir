@@ -30,45 +30,33 @@
 
 @media (max-width: 768px) {
   .testimonial-card {
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column; /* stack image first, content below */
+    align-items: center; /* center content */
+    min-height: auto; /* remove fixed height */
+    padding: 20px;
   }
 
-  .testimonial-image-side {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 15px;
-  }
-
+  .testimonial-image-side,
   .testimonial-image {
-    width: 100%;
+    position: static; /* remove absolute positioning */
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px; /* space between image and content */
   }
 
   .testimonial-content {
+    padding-left: 0; /* remove desktop padding */
     width: 100%;
-    margin: 0;
+    padding-top: 30px;
+    padding-left: 10px;
   }
 
-  .testimonial-card::before {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-/* Mobile Styles */
-@media (max-width: 768px) {
   .testimonial-card::before {
     width: 200px;
     height: 200px;
   }
 
-  .testimonial-image {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
-  }
-}
-@media (max-width: 768px) {
   .navbar {
     z-index: 9999;
   }
