@@ -59,3 +59,34 @@ window.addEventListener("scroll", () => {
 });
 
 
+document.addEventListener('DOMContentLoaded', function() {
+  const lightbox = document.querySelector('.image-lightbox');
+  const overlay = document.querySelector('.lightbox-overlay');
+  const closeBtn = document.querySelector('.lightbox-close');
+  const lightboxImage = document.querySelector('.lightbox-image');
+  const caption = document.querySelector('.lightbox-caption');
+  
+  document.querySelectorAll('.pro-card').forEach(card => {
+    card.addEventListener('click', function(e) {
+      const img = this.querySelector('img');
+      lightboxImage.src = img.src;
+      lightboxImage.alt = img.alt;
+      caption.textContent = img.alt;
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden'; 
+    });
+  });
+  
+  function closeLightbox() {
+    lightbox.classList.remove('active');
+  }
+  
+  overlay.addEventListener('click', closeLightbox);
+  closeBtn.addEventListener('click', closeLightbox);
+  
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+      closeLightbox();
+    }
+  });
+});

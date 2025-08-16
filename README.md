@@ -135,10 +135,7 @@ fokir/
 
 ---
 
-## 👤 Author
+## 🙋‍♀️ Author
 
-**Maha Ebrahim**
-
-<div align="center">
-  <h3>⭐ Show your support by starring this repository!</h3>
-</div>
+**👩‍💻 Maha Ebrahim**
+**Frontend Developer**
